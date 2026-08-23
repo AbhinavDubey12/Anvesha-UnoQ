@@ -99,6 +99,6 @@ Full reasoning behind each pin choice is in the code comments.
 
 [MIT]
 
-## Author(s)
+## Author
 
 Abhinav Dubey

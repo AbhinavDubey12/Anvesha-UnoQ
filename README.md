@@ -31,11 +31,11 @@ By default, the rover navigates autonomously using three ultrasonic sensors (fro
 | 4x LED, 1x buzzer, 1x push button | Status/mode indication |
 | Chassis, wheels, battery, wiring | — |
 
-*(Full BOM with quantities/sourcing: see `/docs/BOM.md`)*
+
 
 ## System Architecture
 
-*(See `/docs/system_diagram.png` for the full block diagram)*
+
 
 ```
 ESP32-CAM (video)
@@ -66,7 +66,7 @@ ESP32: motor execution + quadrature encoder tracking
 - UART: GPIO25 (RX2) / GPIO26 (TX2)
 - Motor direction (shared per side): Left IN1/IN2 → GPIO27/14, Right IN1/IN2 → GPIO13/15
 - Independent PWM speed: FL=32, RL=33, FR=4, RR=23
-- Encoders (A/B): FL=34/35, RL=16/17, FR=36/39, RR=5/18
+- Encoders (A/B): FL=34/35, RL=19/21, FR=2/22, RR=5/18
 
 Full reasoning behind each pin choice is in the code comments.
 
@@ -87,7 +87,7 @@ Full reasoning behind each pin choice is in the code comments.
 
 ## Demo Video
 
-[LINK TO 3–5 MIN DEMO VIDEO]
+(https://drive.google.com/file/d/1g66gReOm86e0tmXK2YHVcHV1n0MQbO11/view?usp=drivesdk)
 
 ## Repository Structure
 
@@ -104,4 +104,4 @@ Full reasoning behind each pin choice is in the code comments.
 
 ## Author(s)
 
-[YOUR NAME(S) HERE]
+Abhinav Dubey

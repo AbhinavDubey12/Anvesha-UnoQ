@@ -70,6 +70,10 @@ ESP32: motor execution + quadrature encoder tracking
 
 Full reasoning behind each pin choice is in the code comments.
 
+## Confusion Matrix 
+<img width="774" height="710" alt="image" src="https://github.com/user-attachments/assets/b58a9d60-f715-454d-a1e1-71249e471517" />
+
+
 ## Key Engineering Challenges & Solutions
 
 - **ESP32-CAM stream reliability:** `cv2.VideoCapture`'s FFmpeg/GStreamer backend proved unreliable against the board's minimal MJPEG server under real-world network jitter. Solved with a manual `urllib` + JPEG-marker-parsing fetcher, with reconnect-on-failure logic.

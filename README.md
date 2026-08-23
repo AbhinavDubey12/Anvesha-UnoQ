@@ -100,7 +100,7 @@ Full reasoning behind each pin choice is in the code comments.
 
 ## License
 
-[MIT — confirm/replace if different]
+[MIT]
 
 ## Author(s)
 

@@ -93,14 +93,7 @@ Full reasoning behind each pin choice is in the code comments.
 
 (https://drive.google.com/file/d/1g66gReOm86e0tmXK2YHVcHV1n0MQbO11/view?usp=drivesdk)
 
-## Repository Structure
 
-```
-/app          — Arduino App Lab project (Python + STM32 sketch)
-/esp32        — ESP32 motor-controller sketch
-/esp32-cam    — ESP32-CAM streaming sketch
-/docs         — system diagram, BOM, additional documentation
-```
 
 ## License
 
